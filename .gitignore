@@ -1,0 +1,24 @@
+# Python
+ml-service/venv/
+ml-service/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/.next/
+frontend/out/
+
+# Env
+.env*
+
+# Firebase
+.firebase/
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# Misc
+.DS_Store
+Thumbs.db
