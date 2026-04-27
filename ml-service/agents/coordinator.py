@@ -41,7 +41,7 @@ fairness_coordinator = Agent(
 
 async def run_test():
     # Set the API key
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyAROyIO03AjbMKsnPgbNbS0N9s7o3st448"
+    os.environ["GEMINI_API_KEY"] = "AIzaSyCHItVt2hBp8zzPHhF66x7BTP1oaI-c7ro"
     
     # Initialize services
     session_service = InMemorySessionService()
