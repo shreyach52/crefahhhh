@@ -1,0 +1,7 @@
+RBI Master Circular on Loans and Advances (2023):
+1. Fairness in Lending: Banks and NBFCs must ensure that loan approval processes are transparent and do not discriminate based on gender, caste, or geographic location.
+2. Credit Score Usage: While credit scores are a primary factor, they should not be used as the sole reason for rejection without considering other repayment capacity factors.
+3. Digital Lending Guidelines: Automated algorithms used for credit decisioning must be auditable and free from systemic bias against gig workers or unconventional income sources.
+4. Rural Lending: Financial institutions must maintain parity in interest rates and approval timelines for rural vs urban applicants for similar risk profiles.
+5. MSME Support: Special consideration should be given to MSMEs and self-employed individuals with consistent cash flows, even if formal documentation is limited.
+6. Rejection Transparency: In case of rejection, the primary reason must be communicated to the borrower in writing.

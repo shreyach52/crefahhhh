@@ -8,3 +8,6 @@ export const ai = genkit({
     }),
   ],
 });
+
+export * from './genkit/flows/auditFlow';
+export * from './genkit/flows/complaintFlow';

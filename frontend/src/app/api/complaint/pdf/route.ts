@@ -1,16 +1,16 @@
 import { NextResponse } from 'next/server';
-import { runFullAudit } from '@/lib/genkit';
+import { complaintFlow } from '@/lib/genkit';
 
 export async function POST(request: Request) {
   try {
-    const data = await request.json();
+    const { auditId } = await request.json();
     
-    // Call the Genkit Flow to orchestrate agents and ML services
-    const result = await runFullAudit(data);
+    // Call the Genkit flow to generate PDF
+    const result = await complaintFlow({ auditId });
 
     return NextResponse.json(result);
   } catch (error: any) {
-    console.error('Audit API Error:', error);
+    console.error('PDF Complaint API Error:', error);
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 }
